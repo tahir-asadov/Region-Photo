@@ -14,7 +14,7 @@ This application uses Docker. To make it up and running use this command.
 
 ## How to login
 
-Use this link to login as an Administor or Basic user http://localhost:8000/login
+Use this link to login as an Administor or Regular user http://localhost:8000/login
 
 ### **User credentials**
 #### *Super admin*
@@ -24,7 +24,7 @@ Use this link to login as an Administor or Basic user http://localhost:8000/logi
 
 #### *Regular User*
 
-#### username: regular-user
+#### username: regular-user@example.com
 #### password: password
 
 ## Database connection
