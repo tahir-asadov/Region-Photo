@@ -1,0 +1,73 @@
+/* ==========================================================================
+[Content]
+========================================================================== */
+.content_section {
+  .row {
+    .container {
+      .posts {
+        padding: 10px 0;
+        column-count: 3;
+        column-gap: 10px;
+        > div {
+          margin-bottom: 10px;
+          border-radius: 3px;
+          overflow: hidden;
+          position: relative;
+          a.post_link {
+            img {
+              display: block;
+            }
+          }
+          h2 {
+            position: absolute;
+            top: 0;
+            z-index: 1;
+            display: block;
+            background-color: rgba(0,0,0,0.2);
+            transition: all 0.2s ease;
+            width: 100%;
+            a {
+              display: block;
+              text-decoration: none;
+              font-size: 15px;
+              padding: 10px;
+              color: white;
+              &:hover {
+                color: white;
+              }
+            }
+          }
+          .info {
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            background-color: rgba(0,0,0,0.2);
+            transition: all 0.2s ease;
+            > div {
+              font-size: 15px;
+              padding: 10px;
+              color: white;
+              font-weight: bold;
+              a {
+                text-decoration: none;
+                color: white;
+                font-weight: 400;
+              }
+            }
+          }
+          &:hover {
+            .info {
+              background-color: rgba(0,0,0,0.8);
+            }
+            h2 {
+              background-color: rgba(0,0,0,0.8);
+            }
+          }
+        }
+      }
+    }
+  }
+}
