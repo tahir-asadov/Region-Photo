@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Support\Str;
 
 class Post extends Model
 {
@@ -37,11 +38,18 @@ class Post extends Model
     }
 
     public function thumbnail() {
-        $galleries = $this->galleries()->first();
+        $galleries = $this->galleries->first();
         if($galleries) {
             return str_replace('public', '', $galleries->path);
         }
         return false;
+    }
+
+    public function path()
+    {
+        $slug = Str::slug($this->title);
+        return route('public.post', [$slug, $this->id]);
+        // return "/p/{$slug}/{$this->id}";
     }
     
 

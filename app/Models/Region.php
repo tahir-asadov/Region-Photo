@@ -16,4 +16,9 @@ class Region extends Model
     {
         return $this->hasMany(Post::class);
     }
+
+    public function path()
+    {
+        return "/r/{$this->slug}";
+    }
 }

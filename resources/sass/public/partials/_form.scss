@@ -16,7 +16,7 @@ textarea {
   padding: 10px;
   margin: 0;
   border-radius: 3px;
-  border: #ccc solid 1px;
+  border: #f0efef solid 1px;
   font-size: 16px;
   line-height: 1.2;
   color: #222;
@@ -36,14 +36,14 @@ textarea {
 
 [type="submit"], [type="button"], button, .button {
   display: inline-block;
-  padding: 5px 20px;
+  padding: 8px 23px;
   margin: 5px;
   background-color: $red;
   color: white;
   border: none;
   border-radius: 4px;
   font-weight: bold;
-  font-size: 13px;
+  font-size: 16px;
   text-decoration: none;
   cursor: pointer;
   &.secondary {

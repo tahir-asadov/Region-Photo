@@ -32,7 +32,7 @@ class DatabaseSeeder extends Seeder
         $users = \App\Models\User::factory(2)->create();
 
 
-        $regions = \App\Models\Region::factory(3)->create();
+        $regions = \App\Models\Region::factory(7)->create();
         $cities = \App\Models\City::factory(4)->create();
         $villages = \App\Models\Village::factory(5)->create();
 

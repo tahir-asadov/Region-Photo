@@ -16,6 +16,8 @@
           a.post_link {
             img {
               display: block;
+              width: 100%;
+              object-fit: cover;
             }
           }
           h2 {
@@ -67,6 +69,21 @@
             }
           }
         }
+      }
+      .pagination {
+        li {
+          list-style: none;
+          margin-right: 5px;
+          &:last-child {
+            margin-right: 0;
+          }
+          &:hover a, &.active span {
+            color: white;
+            font-weight: bold;
+            background: $red;
+            border-color: transparent;
+          }
+        } 
       }
     }
   }

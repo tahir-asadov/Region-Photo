@@ -1,14 +1,34 @@
 /* Font families */
-$roboto: 'Roboto', sans-serif;
+$lora: 'Lora', serif;
+$poppins: 'Poppins', sans-serif;
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
 /* Body colors */
 $body_bg_color: #fdfdfd;
 
 /* Main colors */
-$red: #db2727;
+$blue: #0f5a7b;
 $green: #608e2d;
 $dark_black: #222222;
 $light_black: #333333;
 $white: #ffffff;
 $black: #000000;
-$selection_bg_color: $red;
+
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$selection_bg_color: $green;
 $selection_text_color: $white;
