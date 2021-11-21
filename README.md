@@ -12,6 +12,9 @@ This application uses Docker. To make it up and running use this command.
 ## Migrate database and seed data
 `php artisan migrate --seed`
 
+## Install NodeJS Dependencies
+`npm i`
+
 ## How to login
 
 Use this link to login as an Administor or Regular user http://localhost:8000/login
