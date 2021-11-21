@@ -7,7 +7,7 @@ This application uses Docker. To make it up and running use this command.
 `docker-compose up`
 
 ## To install dependencies
-`composer update`
+`composer install`
 
 ## Migrate database and seed data
 `php artisan migrate --seed`

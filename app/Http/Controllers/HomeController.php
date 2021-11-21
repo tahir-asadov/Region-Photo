@@ -28,8 +28,6 @@ class HomeController extends Controller
      */
     public function index()
     {
-        
-        Mail::to('tahir-asadov@outlook.com')->send(new OrderShipped([]));
         return view('public.home', [
             'posts' => Post::latest()->with('galleries', 'region', 'user')->paginate(12)
         ]);

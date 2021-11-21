@@ -34,10 +34,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /*!************************************!*\
   !*** ./resources/sass/public.scss ***!
   \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9yZXNvdXJjZXMvc2Fzcy9wdWJsaWMuc2Nzcy5qcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9wdWJsaWMuc2Nzcz81ZTk4Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/public.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/css-loader/dist/cjs.js):\nError: Can't resolve '../images/images/12.jpg' in '/mnt/win/Dockers/rp/resources/sass'\n    at finishWithoutResolve (/mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:293:18)\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:362:15\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/mnt/win/Dockers/rp/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:16:1)\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/mnt/win/Dockers/rp/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:87:43\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at eval (eval at create (/mnt/win/Dockers/rp/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)\n    at /mnt/win/Dockers/rp/node_modules/enhanced-resolve/lib/Resolver.js:410:5\n    at processResult (/mnt/win/Dockers/rp/node_modules/webpack/lib/NormalModule.js:751:19)\n    at /mnt/win/Dockers/rp/node_modules/webpack/lib/NormalModule.js:853:5\n    at /mnt/win/Dockers/rp/node_modules/loader-runner/lib/LoaderRunner.js:399:11\n    at /mnt/win/Dockers/rp/node_modules/loader-runner/lib/LoaderRunner.js:251:18\n    at context.callback (/mnt/win/Dockers/rp/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.loader (/mnt/win/Dockers/rp/node_modules/css-loader/dist/index.js:155:5)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)");
 
 /***/ })
 
@@ -128,7 +127,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
 /******/ 			"/js/app": 0,
-/******/ 			"css/public": 0,
 /******/ 			"css/app": 0
 /******/ 		};
 /******/ 		
@@ -179,9 +177,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/public","css/app"], () => (__webpack_require__("./resources/js/app.js")))
-/******/ 	__webpack_require__.O(undefined, ["css/public","css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/public","css/app"], () => (__webpack_require__("./resources/sass/public.scss")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/js/app.js")))
+/******/ 	__webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/app.scss")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/app"], () => (__webpack_require__("./resources/sass/public.scss")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
