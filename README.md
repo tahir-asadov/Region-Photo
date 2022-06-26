@@ -10,8 +10,10 @@ This application uses Docker. To make it up and running use this command.
 `composer install`
 
 ## To create the symbolic links run this command
-`php artisan storage:link`   
+`php artisan storage:link`
 
+## Create .env file in the root directory
+And set up your database connection
 
 ## To generate Application Key run this command
 `php artisan key:generate`
