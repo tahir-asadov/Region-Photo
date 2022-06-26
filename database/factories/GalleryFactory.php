@@ -22,6 +22,11 @@ class GalleryFactory extends Factory
         $destination_path = storage_path('app/public/galleries');
         $images           = glob($source_path);
 
+        // Create gallery folder in storage folder
+        if(!is_dir($destination_path) && !is_file($destination_path)) {
+            mkdir($destination_path);
+        }
+
         $image_source = $images[array_rand($images)];
         $new_filename = uniqid() . '.jpg';
         $new_filepath = $destination_path . '/' . $new_filename;
