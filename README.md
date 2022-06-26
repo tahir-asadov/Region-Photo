@@ -9,6 +9,13 @@ This application uses Docker. To make it up and running use this command.
 ## To install dependencies
 `composer install`
 
+## To create the symbolic links run this command
+`php artisan storage:link`   
+
+
+## To generate Application Key run this command
+`php artisan key:generate`
+
 ## Migrate database and seed data
 `php artisan migrate --seed`
 
